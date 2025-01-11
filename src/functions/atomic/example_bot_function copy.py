@@ -8,7 +8,8 @@ from telebot.callback_data import CallbackData
 from bot_func_abc import AtomicBotFunctionABC
 
 class AtomicExampleBotFunction(AtomicBotFunctionABC):
-    """Пример реализации атомной функции бота с возможностью отправки случайных картинок собак"""
+    """Пример реализации атомной функции бота с возможностью отправки случайных картинок собак
+    """
 
     commands: List[str] = ["example", "ebf"]
     authors: List[str] = ["IHVH"]
